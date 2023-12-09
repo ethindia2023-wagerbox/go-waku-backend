@@ -23,8 +23,8 @@ func main() {
 	}
 
 	// msg := "what is the tallest mountain in the world?"
+	InitWaku()
 
 	r := InitServer(openAIConstants)
-
 	StartServer(r)
 }
